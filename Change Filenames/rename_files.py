@@ -10,5 +10,5 @@ def rename_files():
     os.chdir('/Users/kevin_wan/Documents/python-projects-uda/Change Filenames/prank')
     for file_name in file_list:
         os.rename(file_name,file_name.translate(None,'0123456789'))
-    os.chdir('/Users/kevin_wan/Documents/python-projects-uda/Change Filenames')
+    os.chdir(saved_path)
 rename_files()
